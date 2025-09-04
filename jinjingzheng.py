@@ -3,7 +3,7 @@ import requests
 from datetime import datetime,timedelta
 
 # 配置信息（需自行填写）
-URL = "" # 初始地址，防止恶意访问，请求地址不提供，需要的自行抓包
+URL = "jjz.jtgl.beijing.gov.cn" # 初始地址，防止恶意访问，请求地址不提供，需要的自行抓包
 AUTH = "" # 访问凭证，通过抓包在请求头信息 Authorization 字段
 SEND_KEY = "" # server酱微信推送密钥(可选)
 
